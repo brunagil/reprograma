@@ -1,0 +1,77 @@
+/* GERAL - TITULOS E COR */
+
+body{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #5D1277;
+    margin: 0;
+} 
+
+a {
+    text-decoration: none;
+    color: #5D1277;
+}
+
+.titulos {
+    text-align: center;
+}
+
+.principal {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* ESPECIFICO */
+
+.principal-esquerda {
+    display: inline-block;
+    width: 450px;
+}
+
+.principal-esquerda img {
+    width: 300px;
+
+}
+
+.btn {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 3px;
+    text-align: center;
+}
+.btn-roxo {
+    background-color: #5D1277;
+    color: white; 
+    transition: all 1s;
+}
+
+.btn-roxo:hover {
+    background-color: black;
+    color: #5D1277;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+.btn-branco:hover {
+    background-color: red;
+}
+.btn-branco {
+    background-color: transparent;
+    color: #5D1277;
+    border: 1px solid purple;
+    transition: all 1s; 
+
+}
+
+.listas {
+    display: inline-block;
+    vertical-align: top;
+  
+}
+
+li {
+    padding: 8px;
+}
+
+

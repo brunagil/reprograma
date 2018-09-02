@@ -1,0 +1,111 @@
+/* GERAL */
+
+* {
+  box-sizing: border-box; 
+}
+
+body { 
+  font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
+  
+}
+
+  
+/* TABELA */
+
+table, tr, td {
+  border-collapse: collapse;
+  border-right: 1px solid #979797;
+  margin: 50px auto; 
+    
+}
+
+thead { 
+  border-right: 1px solid #979797; 
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #DCDCDC; 
+}
+
+
+/* DETALHES */
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase; 
+  font-size: 14px;
+  display: block;
+  margin: 33px;
+  width: 112px;
+  background-color: #FF5406;
+  color: white;
+  padding: 13px;
+  border-radius: 5px;
+  
+     
+}
+
+.border_body {
+  border-top: 1px solid #979797; 
+
+}
+
+.tabela-corpo {
+  border-top: 1px solid  #979797; 
+}
+
+.benefit__title {
+  font-size: 13px;
+  margin: 10px; 
+  padding: 10px; 
+  color: #4A4A4A; 
+}
+
+/* INTRODUCAO */
+
+.intro__titulo1 {
+  font-size: 13px;
+  font-weight: lighter;
+  background-color:#0078C1;
+  color: #FFFFFF; 
+  border-right: #979797; 
+  padding: 10px;
+   
+  
+}
+.intro__titulo2 {
+  background-color: #009E2C; 
+  font-size: 13px;
+  font-weight: lighter;
+  color: white;
+  padding: 10px;
+
+}
+
+/* CHECK BOTTONS */
+
+.blue_check {
+  color: #0078C1; 
+  text-align: center;
+}
+
+.green_check {
+  color: #009E2C; 
+  text-align: center; 
+  
+}
+
+.service__title {
+ padding-top: 10px;
+ color: #4A4A4A; 
+ font-size: 16px; 
+ border-right: 1px solid #979797;
+ border-left: 1px solid  #979797;
+}
+
+.benefit__title_user {
+  color: #4A4A4A; 
+  font-size: 13px; 
+  text-align: center;
+}
+
