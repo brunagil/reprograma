@@ -1,0 +1,205 @@
+/* MAIN */
+
+* {
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+/* FONT SIZES */ 
+
+h1 {
+    font-family: 'Varela Round';
+    font-size: 8vw; 
+    font-weight: lighter; 
+    text-align: center; 
+
+}
+
+h2, h3, h4 {
+    font-family: 'Varela Round';
+    font-size: 20px;
+    
+}
+
+p {
+    font-size: 13px;
+}
+
+/* LINKS */
+a { 
+    font-size: 13px; 
+    text-decoration: none; 
+    color: white; 
+    
+}
+
+/* LISTS */
+
+li { 
+    padding: 15px; 
+    margin: 0 10px;
+    font-size: large;  
+}
+
+
+.topbar__mobile {
+    display: none; 
+}
+
+@media (max-width: 420px) {
+    .topbar__mobile {
+        display: block; 
+    }
+}
+
+/* MENU */ 
+
+.topbar { 
+    background-color: #a0bed0;
+    margin: 0 auto;
+    width: 100%; 
+    position: top; 
+    z-index: 999;
+    position: fixed;   
+   
+}
+
+.topbar__items { 
+    list-style: none; 
+    display: flex; 
+    justify-content: flex-end;
+    height: 50px; 
+    margin-right: 10%;
+    
+    
+}
+
+.topbar__items-menu { 
+    font-size: 100%; 
+    
+}
+
+/* BACKGROUND */
+
+.box { 
+    background-image: url("../img/foto-banner.jpg");
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10%; 
+    /*background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%);*/
+    background-position: center; 
+    background-size: cover;
+    text-align: center; 
+}
+
+.second-box {
+    background-color: #161616; 
+    margin: 0; 
+}
+
+
+/* BOTTONS */
+
+.box__btn {
+    text-transform: uppercase;  
+    background-color: #829dad; 
+ 
+}
+
+.btn-primary { 
+    padding: 2% 3%; 
+    border-radius: 6px; 
+    margin: 0 5%;
+}
+
+.btn-primary:hover {
+    background-color: #36b0e0;  
+}
+
+/* TITLES */ 
+
+.box__title { 
+    text-transform: uppercase; 
+    color: white;
+    width: 100%;
+    letter-spacing: 10px;
+
+}
+
+.box__subtitle { 
+    color: white; 
+    margin-bottom: 50px; 
+}
+
+/* BLACK BOX */
+
+.second-box { 
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    text-align: center; 
+}
+
+.second-box__title {
+    color: #fff;
+
+}
+
+.second-box__subtitle {
+    color: #fff; 
+}
+
+/* RESPONSIVIDADE */ 
+
+@media (max-width: 420px) {
+    .topbar { 
+        background-color:white;
+        
+    
+    }
+}
+
+@media (max-width: 420px) {
+    .topbar__items-menu {
+        display: none;
+            
+    }
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 50px;
+        padding: 20px; 
+        margin-top: 60px;
+        text-align: center;
+    }
+}
+
+@media  (max-width: 420px) {
+    h2 {
+        font-size: 20px; 
+        
+    }
+}
+
+@media (max-width: 420px){
+    .box__btn {
+        padding: 20px;
+        
+    }
+}
+
+@media (max-width: 420px) {
+    .second-box {
+        padding: 68px; 
+    }
+}
+
+
