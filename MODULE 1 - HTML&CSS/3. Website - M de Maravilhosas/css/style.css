@@ -1,0 +1,627 @@
+/*----- GERAL ----*/
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', 'Roboto', Arial, Helvetica, sans-serif;
+
+}
+
+img { 
+    width: 100%;
+}
+
+a {
+    text-decoration: none; 
+    color: #FFFFFF;
+}
+
+/*---- FONT SIZES ----*/ 
+
+h1 {
+    font-size: 26px; 
+}
+
+h2 {
+    font-size: 16px; 
+}
+
+p {
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+ul, li {
+    list-style: none; 
+    text-transform: uppercase;
+    margin: 0 15px;
+    text-align: center;
+}
+
+
+/*---- NAVEGATOR - TOPBAR ----*/
+
+.topbar-box {
+    display: flex;
+    align-items: center;
+    background-color: #674582;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+
+}
+
+.topbar__logo-image {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    margin-left: 30px;
+    padding: 25px;
+}
+
+.mobile-menu {
+    position: relative;
+    margin-left: 70px;
+    margin-right: 15px;
+    min-width: 35px;
+}
+
+.topbar__social-media > a {
+    margin-right: 8px;
+} 
+
+/*---- MOBILE FIRST - MOBILE MENU ----*/
+
+.desktop-display {
+    display: none; 
+}
+
+/*---- BANNER ----*/
+
+
+.header {
+    background-image: url(../img/bg-banner-claro.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+    width: 100%;
+
+}
+
+.banner__title {
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    margin-bottom: 30px;
+    
+}
+
+.banner__subtitle {
+    color: #FFFFFF; 
+    font-weight: lighter;
+    margin-bottom: 35px;
+}
+
+
+/*---- BUTTON ----*/
+
+.btn {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #C083B9;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-banner {
+    padding: 15px;
+
+}
+
+/*---- MAIN ----*/ 
+
+.main__title_roboto-purple {
+    font-family: 'Roboto';
+    color: #63458A;
+    text-align: center;
+    padding: 30px;
+}
+
+.container-3box {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.woman__profile {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    margin: 20px;
+}
+
+.woman__profile img {
+    background-color: #63458A;
+
+}
+/*---- FOOTER ----*/ 
+
+.container-3box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.footer__menu {
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+.footer__menu_items {
+    font-size: 13px;
+}
+
+.footer__logo-image {
+    max-width: 300px;
+    margin: 10px auto;
+
+}
+
+.footer__facebook-link {
+    margin: 10px auto;
+    
+
+}
+.facebook-icon {
+    max-width: 15px;
+    
+}
+
+.footer-color {
+    background-color: #323534;
+}
+
+.logo-footer {
+    max-width: 200px;
+}
+
+.copyright {
+    background-color: #292A2A;
+    padding: 50px auto; 
+    
+}
+
+.footer__copyright {
+    color: #FFFFFF;
+    font-size: 10px; 
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+
+
+/*----- PERFIL - MARTA MELHOR JOGADORA DE FUTEBOL DO MUNDO ------*/
+
+/* MARGIN SIZES */ 
+
+.container__marta {
+    margin: 20px 40px;
+
+
+}
+
+.margin-profile {
+    margin: 20px; 
+}
+
+
+/* DETAILS */
+
+
+
+/*---- HEADER - MARTA ----*/ 
+.header__Marta {
+    background-image: url(../img/marta-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.banner__title_Marta {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 40px;
+}    
+
+/*---- 1ST BOX - OUTLINE AND PROFILE PIC -----*/ 
+
+.profiles {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.outline {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+
+}
+.outline__image {
+    width: 50%;
+}
+.image-marta-profile {
+    border-radius: 100%;
+   
+}
+
+.outline__title {
+    font-family: 'Roboto';
+    color: #63458A;
+}
+
+/*---- 2ND BOX -- QUOTE ----*/ 
+
+.border-quote {
+    border: 1px solid #63458A; 
+}
+
+.quote__marta {
+    color: #63458A;
+    font-weight: bolder;
+    padding: 30px;
+    text-align: center;
+}
+
+/*---- 3RD BOX - STORY OF MARTA ----*/ 
+
+.story {
+    margin: 0 30px;
+}
+
+.story__title {
+    font-family: 'Roboto';
+    color: #63458A;
+}
+
+.marta-fifa {
+    padding: 5%; 
+}
+
+
+/*--- 4TH BOX - ABOUT THE AUTHOR */ 
+
+.author__description {
+    margin-left: 30px;
+    font-size: 13px;
+    color: #63458A;
+}
+.container__author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4B7E5;
+}
+
+/*---- BUTTON - MARTA PROFILE */
+
+.btn__perfil {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+.btn-perfil {
+    padding: 14px 30px;
+}
+
+
+/*--- MEDIA QUERY - RESPONSIVIDADE ----*/
+
+
+@media (min-width: 600px) {
+    .desktop-display {
+        display: flex;
+    }
+}
+
+@media (min-width: 600px) {
+    .mobile-menu {
+        display: none; 
+    }
+}
+
+
+@media (min-width: 600px) {
+    .topbar__logo-image {
+        width: 60%;
+        margin: 0;
+        padding: 25px;
+    }
+}
+
+@media (min-width:600px) {
+    .topbar__social-media {
+        margin-right: 10px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 600px) {
+    .container-banner {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 600px) {
+    .woman__profile {
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+   }
+}
+
+@media (min-width: 600px) {
+    .topbar__menu_items {
+        font-size: 12px;
+        display: flex;
+    }
+}
+
+
+
+
+/*---- MEDIA QUERY - TABLET IPAD ----*/
+
+@media (min-width: 768px) {
+    .topbar__menu_items {
+        font-size: 15px;
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    p, h1,h2,h3 {
+        font-size: 1.8rem;
+    }
+}
+
+
+/* MEDIA QUERY - SMALL LAPTOP */
+
+@media (min-width: 900px) {
+    .topbar__logo-image {
+        width: 50%;
+        margin: 0;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 900px) {
+    .topbar__logo-image img {
+        max-width: 230px;
+        margin-left: 100px;
+
+    }
+}
+
+@media (min-width: 900px) {
+    .topbar__menu {
+        font-size: 12px;
+
+
+    }
+}
+
+@media (min-width:900px) {
+    .topbar__social-media {
+        width: 125px;
+        margin-left: 45px; 
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .banner__title {
+        font-size: 35px; 
+    }
+}
+
+@media (min-width: 900px) {
+    .banner__subtitle {
+        font-size: 23px; 
+    }
+}
+
+@media (min-width: 900px) {
+    .container-banner {
+        padding: 45px; 
+
+    }
+}
+
+@media (min-width: 900px) {
+    .btn {
+        font-size: 22px;
+        padding: 20px 60px;
+        margin: 0 auto;
+    }
+} 
+
+/*--- MEDIA QUERY - TABLET DEITADO ----*/ 
+
+@media (min-width: 1024px) {
+    .container-3box {
+        display: flex;
+        flex-direction: row;
+    }
+}   
+
+@media (min-width: 1024px) {
+    .woman__profile img {
+        max-width: 150px;
+    }   
+}
+
+/*--- MEDIA QUERY - TABLET DEITADO - PERFIL MARTA ----*/ 
+
+
+@media (min-width: 1024px) {
+    p,h2,h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .topbar-box {
+        height: 7rem; 
+}
+
+@media (min-width: 1024px) {
+    .topbar__logo-image img {
+        max-width: 100%;
+        margin-left: 60px;
+    }    
+}
+
+@media (min-width: 768px) {
+    .topbar__menu_items {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .topbar__social-media {
+        width: 16%;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .banner__title_Marta {
+        font-size: 4rem;
+    }    
+}
+
+
+@media (min-width: 768px) {
+    .container__marta {
+       padding: 50px;
+
+    }    
+}   
+
+@media (min-width: 768px) {
+    .container__author {
+       height: 200px;
+    }    
+}   
+
+
+@media (min-width: 768px) {
+    .author__profile {
+        width: 197px;
+    }    
+}   
+
+
+@media (min-width: 768px) {
+    .btn__perfil {
+        margin: 70px;
+    }    
+}    
+
+
+@media (min-width: 768px) {
+    a {
+        font-size: 1.2rem;
+    }    
+}    
+
+@media (min-width: 768px) {
+    .footer__copyright {
+        font-size: 0.9rem;
+    }    
+}    
+
+
+/*---- MEDIA QUERY - DESKTOP --1280PX-*/ 
+
+@media (min-width: 1024px) {
+    p, h2, h3 {
+        font-size: 1.2rem;
+    }    
+}
+
+
+@media (min-width: 1024px) {
+    a {
+        font-size: 1.1rem;
+    }    
+}
+
+
+@media (min-width: 1280px) {
+    .topbar-box {
+        height: 7.5rem;
+}
+
+
+@media (min-width: 1280px) {
+    .topbar__social-media {
+        position: relative;
+        left: 250px;
+    }    
+}    
+
+@media (min-width: 1280px) {
+    .topbar__menu_items {
+        position: relative;
+        left: 190px;
+    }    
+}
+
+
+@media (min-width: 1280px) {
+    .container__marta {
+        padding: 100px;
+    }   
+}
+
+@media (min-width: 1280px) {
+    .outline {
+        display: flex;
+        flex-direction: row;
+        padding: 0 60px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .outline__image {
+        width: 100%; 
+    }    
+}
+
+@media (min-width: 1280px) {
+    .margin-profile {
+        margin: 30px;
+    }
+}        
