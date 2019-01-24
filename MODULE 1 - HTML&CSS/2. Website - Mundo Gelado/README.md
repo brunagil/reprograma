@@ -7,11 +7,11 @@ O objetivo era criar uma Landing Page simples para uma agência de viagens. Util
 
 ### Layout desktop (1280px), Layout tablet (768px) e Mobile (420px)
 
-![alt text](https://github.com/brunagil/reprograma/tree/master/MODULE%201%20-%20HTML%26CSS/2.%20Website%20-%20Mundo%20Gelado/website/projeto2-mundogelado.png "Layout Desktop")
+![alt text](https://github.com/brunagil/reprograma/blob/master/MODULE%201%20-%20HTML%26CSS/2.%20Website%20-%20Mundo%20Gelado/website/projeto2-mundogelado.png "Layout Desktop")
 
 ---
 
-![alt text](https://github.com/brunagil/reprograma/tree/master/MODULE%201%20-%20HTML%26CSS/2.%20Website%20-%20Mundo%20Gelado/website/projeto4-mundogelado.gif "Gif do Layout mobile em funcionamento")
+![alt text](https://github.com/brunagil/reprograma/blob/master/MODULE%201%20-%20HTML%26CSS/2.%20Website%20-%20Mundo%20Gelado/website/projeto4-mundogelado.gif "Gif do Layout mobile em funcionamento")
 
 
 
