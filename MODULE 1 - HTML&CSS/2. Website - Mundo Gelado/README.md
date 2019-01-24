@@ -3,6 +3,7 @@
 
 O objetivo era criar uma Landing Page simples para uma agência de viagens. Utilizamos HTML e CSS puro, com Media Query para o layout responsivo.
 
+* Site online: https://mundogelado-brg.netlify.com/
 * Referência e Instruções: https://github.com/reprograma/responsivo/tree/master/exercicio-responsivo-do-zero 
 
 ### Layout desktop (1280px), Layout tablet (768px) e Mobile (420px)
