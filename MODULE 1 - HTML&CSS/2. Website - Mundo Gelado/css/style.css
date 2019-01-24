@@ -95,14 +95,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   @media (max-width: 420px) {
     .banner {
       height: 400px;
       background-position: -360px 0;
     }
   }
-  
+
   .banner__title {
     font-size: 105px;
     color: rgba(255, 255, 255, .9);
